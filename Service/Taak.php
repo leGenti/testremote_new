@@ -24,7 +24,7 @@ class Taak
     // Read Taken
 
     public function read() {
-        $sql = 'SELECT * FROM ' . $this->table;
+        $sql = 'SELECT * FROM ' . $this->table_name;
 
         $stmt = $this->conn->prepare($sql);
 
@@ -61,7 +61,7 @@ class Taak
     // Read One taak using ID
 
     public function readOne() {
-        $sql = 'SELECT * FROM ' . $this->table . ' WHERE taa_id = ' . $this->taa_id;
+        $sql = 'SELECT * FROM ' . $this->table_name . ' WHERE taa_id = ' . $this->taa_id;
 
         // Prepate SQL statement
 
