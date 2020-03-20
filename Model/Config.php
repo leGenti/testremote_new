@@ -11,10 +11,10 @@ class Config
     private $application_folder = "";
     private $root_folder;
 
-    private $db_host = "185.115.218.166";
-    private $db_database = "wdev_steven";
-    private $db_user = 'wdev_steven';
-    private $db_pass = 'DCouV9xb4PwF';
+    private $db_host = "localhost";
+    private $db_database = "steden";
+    private $db_user = 'root';
+    private $db_pass = 'genti77';
 
     public function __construct( $path )
     {
